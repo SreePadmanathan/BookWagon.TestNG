@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-11T12:08:13Z" name="Suite" finished-at="2024-09-11T12:08:46Z" duration-ms="33371">
+    <groups>
+    </groups>
+    <test started-at="2024-09-11T12:08:13Z" name="Test" finished-at="2024-09-11T12:08:46Z" duration-ms="33371">
+      <class name="org.bookswagon.testclass.TestClass">
+        <test-method signature="tc01()[pri:0, instance:org.bookswagon.testclass.TestClass@38467116]" started-at="2024-09-11T12:08:13Z" name="tc01" finished-at="2024-09-11T12:08:20Z" duration-ms="6791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method signature="tc02()[pri:0, instance:org.bookswagon.testclass.TestClass@38467116]" started-at="2024-09-11T12:08:20Z" name="tc02" finished-at="2024-09-11T12:08:46Z" duration-ms="26550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+      </class> <!-- org.bookswagon.testclass.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
