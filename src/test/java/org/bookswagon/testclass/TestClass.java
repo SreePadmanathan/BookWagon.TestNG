@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.bookswagon.baseclass.BaseClass;
 import org.bookswagon.pageclass.PageElements;
+import org.bouncycastle.its.ITSPublicEncryptionKey.symmAlgorithm;
 import org.testng.annotations.*;
 
 import org.openqa.selenium.WebElement;
@@ -118,7 +119,7 @@ public class TestClass {
 		baseClass.clickByJS(clickLogout);
 		
 		baseClass.excelReport(3, 3, "Logout Successfull");
-
+		System.out.println("All test cases are executed successfully....");
 		Thread.sleep(2000);
 		baseClass.quit();
 		
